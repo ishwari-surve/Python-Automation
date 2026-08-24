@@ -130,7 +130,7 @@ This repository is for learning and portfolio purposes. Suggestions and improvem
 
 ##  Author
 
-**Ishwari**  
+**Ishwari Surve**  
 Data Science | AI/ML | Python Automation | Backend Development
 
 *Created during Python automation training - Building practical automation solutions one script at a time.*
