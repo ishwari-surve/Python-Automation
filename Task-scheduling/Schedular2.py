@@ -2,7 +2,7 @@ import time
 import datetime
 import schedule
 
-def fun():
+def fun(): 
     print("Inside Fun at",datetime.datetime.now())
 
 def main():
