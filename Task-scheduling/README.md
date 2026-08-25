@@ -18,6 +18,18 @@
 - Shows human-readable time format using time.ctime()
 - Displays current datetime using datetime.datetime.now()
 
+## **Schedular2.py**
+-Implements basic task scheduling automation
+-Schedules function execution at 20-second intervals
+-Uses schedule module for task management
+-Runs tasks in an infinite loop
+
+## **Schedular3.py**
+- Advanced task scheduling with continuous execution
+- Executes functions at fixed time intervals
+- Demonstrates loop-based task runner
+- Real-time task monitoring and execution
+
 **2. Schedular4.py**
 - Implements task scheduling automation
 - Schedules functions to run at specific intervals
@@ -62,8 +74,10 @@ python Schedular4.py
 - pip install schedule
   
 ## **Learning Path**
-- Start with Schedular1.py for understanding time and datetime basics
-- Progress to Schedular4.py for task scheduling automation
+- Start with Schedular1.py (time and datetime basics)
+- Progress to Schedular2.py (basic task scheduling)
+- Learn Schedular3.py (continuous task execution)
+- Master Schedular4.py (multiple interval scheduling)
 
 ## **Notes**
 - The schedule module requires a continuous loop to execute scheduled tasks
