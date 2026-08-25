@@ -8,7 +8,7 @@ def fun():
 def main():
     print("Inside marvellous Automation Script at: ",datetime.datetime.now())
     schedule.every(20).seconds.do(fun)
-    
+     
     while True:
         schedule.run_pending()
         time.sleep(1)
