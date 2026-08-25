@@ -3,7 +3,7 @@ def main():
     FileName1 = sys.argv[1]
     FileName2 = sys.argv[2]
     fobj1 = open(FileName1,"r")
-    fobj2 = open(FileName2,"r")
+    fobj2 = open(FileName2,"r") 
     data1 = fobj1.read()
     data2 = fobj2.read()
     fobj1.close()
