@@ -1,6 +1,6 @@
 #python CommandLine4.py 11 10
 
-import sys
+import sys 
 
 def main():
     No1=int(sys.argv[1])
