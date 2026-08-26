@@ -80,11 +80,11 @@
 - Checks file capabilities
 
 ## How to Run
-bash
-# Run any program
-python FileIO1.py
-python FileIOException.py
-python FileIOExceptionRead.py
+
+**Run any program**
+- python FileIO1.py
+- python FileIOException.py
+- python FileIOExceptionRead.py
 
 # And so on...
 
