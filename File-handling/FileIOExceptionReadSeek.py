@@ -3,7 +3,7 @@ def main():
 
     try:
         fobj=open("Hello.txt","r")
-        print("Filesngets successfully opened")
+        print("Filesngets successfully opened") 
 
         print("Current offset is:",fobj.tell()) #0
 
