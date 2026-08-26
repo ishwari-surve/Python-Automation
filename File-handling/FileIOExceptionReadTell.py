@@ -1,7 +1,6 @@
 def main():
   
-
-    try:
+   try:
         fobj=open("Hello.txt","r")
         print("Filesngets successfully opened")
 
