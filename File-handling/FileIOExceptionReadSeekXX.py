@@ -2,7 +2,7 @@
 #Kuthun : 0/ 1/ 2
 #0 : Starting
 #1: Current
-#2: End
+#2: End 
 
 def main():
   
