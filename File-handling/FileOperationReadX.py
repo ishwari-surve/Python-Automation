@@ -1,5 +1,5 @@
 def main():
-    fobj = None
+    fobj = None 
 
     try:
         fobj=open("Hello.txt","r")
