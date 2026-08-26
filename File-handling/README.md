@@ -119,3 +119,6 @@
 - Different modes have different behaviors
 - File pointer position affects read/write operations
 - Use seek() to navigate file content efficiently
+
+## Author
+**Ishwari Surve**
