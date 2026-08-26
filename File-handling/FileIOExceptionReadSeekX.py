@@ -1,7 +1,7 @@
 #seek(Kuthe,Kuthun)
 #Kuthun : 0/ 1/ 2
 #0 : Starting
-#1: Current
+#1: Current 
 #2: End
 
 def main():
