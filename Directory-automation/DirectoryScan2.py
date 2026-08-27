@@ -1,7 +1,7 @@
 import os
 
 def DirectoryScanner(DirectoryName):
-    
+     
     print("Contents of the directory are:")
 
     for FolderName,SubFolderName,FileName in os.walk(DirectoryName):
