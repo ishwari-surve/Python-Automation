@@ -2,7 +2,7 @@ import os
 
 def main():
     DirectoryName = input("Entr the name of directory")
-
+ 
     print("Contents of the directory are:")
 
     for FolderName,SubFolderName,FileName in os.walk(DirectoryName):
