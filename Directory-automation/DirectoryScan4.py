@@ -4,7 +4,7 @@ def DirectoryScanner(DirectoryName="Marvellous"):
 
     Ret = os.path.exists(DirectoryName)
 
-    if(Ret == False):
+    if(Ret == False): 
         print("there is no such directory")
         return
     
