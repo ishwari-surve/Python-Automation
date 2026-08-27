@@ -2,7 +2,7 @@ import os
 
 def main():
     FileName= input("Enter the name of file:")  #Demo.txt
-    
+     
     if(os.path.exists(FileName)):
        fobj=open(FileName,"w")
 
