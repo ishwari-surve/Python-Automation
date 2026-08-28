@@ -2,7 +2,7 @@ import sys
 import os
 
 def DirectoryScanner(DirName = "Marvellous"):
-    Ret = False
+    Ret = False 
 
     Ret = os.path.exists(DirName)
     if(Ret == False):
