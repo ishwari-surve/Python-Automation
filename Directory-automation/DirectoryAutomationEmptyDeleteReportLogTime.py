@@ -1,9 +1,8 @@
-
 import sys
 import os
 import time
 
-
+ 
 def DirectoryScanner(DirName = "Marvellous"):
         Border = "-"*50
         timestamp = time.ctime()
