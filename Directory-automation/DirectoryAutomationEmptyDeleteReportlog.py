@@ -4,7 +4,7 @@ import os
 
 def DirectoryScanner(DirName = "Marvellous"):
         Border = "-"*50
-
+ 
         fobj = open ("Marvellous.log","w")
 
         fobj.write(Border+"\n")
