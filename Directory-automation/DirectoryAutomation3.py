@@ -1,7 +1,7 @@
 import sys
 import os
 
-def DirectoryScanner(DirName = "Marvellous"):
+def DirectoryScanner(DirName = "Marvellous"): 
     Ret = False
 
     Ret = os.path.exists(DirName)
