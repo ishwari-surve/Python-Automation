@@ -96,8 +96,6 @@ def main():
        schedule.run_pending()
        time.sleep(1)
                                                                    
-
-
   else:
     print("Invalid number of command line arguments")
     print("Unable to process as there is no such option")
