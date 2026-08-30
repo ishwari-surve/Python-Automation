@@ -5,7 +5,7 @@ import sys
 
 def main():
   Border = "-"*50
-  print(Border)
+  print(Border) 
   print("-------Marvellous Platform Surveillance System------")
   print(Border)
 
