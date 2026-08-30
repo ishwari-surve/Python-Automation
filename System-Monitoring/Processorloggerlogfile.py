@@ -8,7 +8,7 @@ def Createlog(FolderName):
    
    Ret = False
 
-   Ret = os.path.exists(FolderName)
+   Ret = os.path.exists(FolderName) 
 
    if(Ret == True):
       Ret = os.path.isdir(FolderName )
