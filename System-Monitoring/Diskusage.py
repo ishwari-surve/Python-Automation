@@ -1,7 +1,7 @@
 #Command line input
 
 import psutil
-import sys
+import sys 
 import os
 import time 
 import schedule
