@@ -1,7 +1,7 @@
 ## Automated Platform Surveillance System
 
 ### About
-
+ 
 - Complete automated platform surveillance system for system resource monitoring
 - Tracks CPU, RAM, Disk, Network usage and running processes
 - Generates comprehensive timestamped log files
