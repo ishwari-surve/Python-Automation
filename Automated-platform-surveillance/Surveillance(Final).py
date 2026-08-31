@@ -1,5 +1,5 @@
 # Automated Platform Surveillance System
-# Marvellous Infosystems - Complete Final Version
+# - Complete Final Version
 
 import psutil
 import sys
@@ -73,7 +73,7 @@ def CreateLog(FolderName):
 
     # Step D: Create timestamp-based unique log filename
     timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
-    FileName = os.path.join(FolderName, "Marvellous_%s.log" % timestamp)
+    FileName = os.path.join(FolderName, "SysAudit_%s.log" % timestamp)
     print("Log file created:", FileName)
 
     # Step E: Open file in write mode
@@ -167,13 +167,13 @@ def main():
             print("ScriptName.py TimeInterval DirectoryName")
             print("TimeInterval : Time in minutes for periodic scheduling")
             print("DirectoryName: Name of folder to store log files")
-            print("Example: python surveillance.py 5 Marvellous")
+            print("Example: python surveillance.py 5 SystemLogs")
 
         else:
             print("Invalid option! Please use --h or --u for help.")
 
     # Case 2: 2 arguments - actual automation run
-    # Example: python surveillance.py 5 Marvellous
+    # Example: python surveillance.py 5 SystemLogs
     elif len(sys.argv) == 3:
 
         print("Time Interval  :", sys.argv[1], "minutes")
